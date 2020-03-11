@@ -22,6 +22,7 @@ depends: [
   "ocamlfind" {>= "1.5.2"}
   "ocaml" {>= "4.06"}
   "dune" {>= "1.11"}
+  "cmdliner"
 ]
 dev-repo: "git+https://github.com/ocaml/ocaml-lsp.git"
 build: [
